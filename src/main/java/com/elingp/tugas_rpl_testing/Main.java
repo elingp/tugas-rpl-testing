@@ -9,9 +9,15 @@ public class Main {
 
     public static void main(String[] args) {
         Fungsi1 fungsi1 = new Fungsi1();
-        int[] arr = {1, 3, 2, 5, 4, 10, 9, 8, 7, 6};
-        int[] sortedArr = fungsi1.pengurutanSeleksi(arr);
-        System.out.println(Arrays.toString(sortedArr));
+        int[] kasusUji1 = {1};
+        // ubah inisialisasi j = 1 menjadi j = i + 1
+        int[] kasusUji2 = {3, 1};
+        int[] kasusUji3 = {10, 8, 9};
+        int[] kasusUji4 = {1, 2};
+        System.out.println(Arrays.toString(fungsi1.pengurutanSeleksi(kasusUji1)));
+        System.out.println(Arrays.toString(fungsi1.pengurutanSeleksi(kasusUji2)));
+        System.out.println(Arrays.toString(fungsi1.pengurutanSeleksi(kasusUji3)));
+        System.out.println(Arrays.toString(fungsi1.pengurutanSeleksi(kasusUji4)));
 
         Fungsi2 fungsi2 = new Fungsi2();
         int number = 10;
