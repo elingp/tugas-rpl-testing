@@ -1,5 +1,8 @@
 package com.elingp.tugas_rpl_testing;
 
+/**
+ * @author ElingP
+ */
 public class Fungsi1 {
 
     int[] pengurutanSeleksi(int[] s) {
