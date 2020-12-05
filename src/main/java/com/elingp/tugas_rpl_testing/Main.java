@@ -34,10 +34,49 @@ public class Main {
         System.out.println(fungsi2.prima(3));
 
         Fungsi3 fungsi3 = new Fungsi3();
-        String P = "apa";
-        String T = "siapakah penemu lampu?";
-        int m = P.length();
-        int n = T.length();
+        String P, T;
+        int n, m;
+        // kasus uji 1, ubah inisialisasi i = 0 --> i = 7
+        P = "apa";
+        T = "siapakah penemu lampu?";
+        m = 4;
+        n = 10;
+        System.out.println(fungsi3.pencocokanString(P, T, n, m));
+        // kasus uji 2, ubah inisialisasi i = 0 --> i = 7 & ketemu = false --> ketemu = true
+        P = "apa";
+        T = "siapakah penemu lampu?";
+        m = 4;
+        n = 10;
+        System.out.println(fungsi3.pencocokanString(P, T, n, m));
+        // kasus uji 3, ubah inisialisasi ketemu = false --> ketemu = true
+        P = "apa";
+        T = "siapakah penemu lampu?";
+        m = 4;
+        n = 10;
+        System.out.println(fungsi3.pencocokanString(P, T, n, m));
+        // kasus uji 4, ubah inisialisasi i = 0 --> i = 6 & j = 0 --> j = 5
+        P = "apa";
+        T = "siapakah penemu lampu?";
+        m = 4;
+        n = 10;
+        System.out.println(fungsi3.pencocokanString(P, T, n, m));
+        // kasus uji 5
+        P = "apa";
+        T = "siapakah penemu lampu?";
+        m = P.length();
+        n = T.length();
+        System.out.println(fungsi3.pencocokanString(P, T, n, m));
+        // kasus uji 6
+        P = "he";
+        T = "hahahahaha";
+        m = P.length();
+        n = T.length();
+        System.out.println(fungsi3.pencocokanString(P, T, n, m));
+        // kasus uji 7
+        P = "haha";
+        T = "hahahahaha";
+        m = P.length();
+        n = T.length();
         System.out.println(fungsi3.pencocokanString(P, T, n, m));
     }
 
